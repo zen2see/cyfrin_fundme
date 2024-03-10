@@ -1,3 +1,26 @@
+# 1 Fix README
+# FOUNDRY FUND ME 
+# This is a the FundMe app
+# Getting Started
+#  - Requirements
+#      Git ...
+#      Foundry ...
+#  - Quickstart
+#      git clone https://
+#      cd foundryfundme
+#      forge build
+# Usage
+#  - Testing
+#    - Test Coverage
+# Scripts
+#  - Withdraw
+# Estimate gas
+# Thank you
+
+# 2 Integration Test
+# 3 Programatic verification
+# 4 Push to Github
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
