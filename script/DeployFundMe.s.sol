@@ -8,10 +8,10 @@ import {HelperConfig} from './HelperConfig.s.sol';
 
 contract DeployFundMe is Script {
     function run() external returns (FundMe) {
-        // Before startBroadcas -> Not a 'real' tx
+        // Before startBroadcast -> Not a 'real' tx
         HelperConfig helperConfig = new HelperConfig();
         address ethUsdPriceFeed = helperConfig.activeNetworkConfig();
-        // After startBroadcas -> real tx
+        // After startBroadcast -> real tx
         vm.startBroadcast();
         FundMe fundMe = new FundMe(ethUsdPriceFeed);
         vm.stopBroadcast();
